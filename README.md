@@ -82,7 +82,7 @@ The scanner places every NHI on this spectrum and generates a per-identity migra
 
 ```bash
 # Clone the repo
-git clone https://github.com/vivarivian280-0ss/nhi-posture-scanner.git
+git clone https://github.com/vivarivian280-oss/nhi-posture-scanner.git
 cd nhi-posture-scanner
 
 # Install (Python 3.10+)
@@ -99,7 +99,7 @@ python scanner.py --target . --cloud aws --report json > posture-report.json
 
 ```yaml
 - name: NHI Posture Scan
-  uses: vivarivian280-0ss/nhi-posture-scanner@v0.1
+  uses: vivarivian280-oss/nhi-posture-scanner@v0.1
   with:
     target: .
     fail-on: critical        # Block PRs that introduce new static secrets
